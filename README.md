@@ -1,9 +1,9 @@
-# keepit
-=========
+keepit
+====================
 
 Is a minimal API wrapper for localStorage with the big featured of set data with expiration time expressed in hours.
 
-## Download
+##Download
 
 The source is available for download from [Github](https://github.com/maxigimenez/keepit), and you can using [Bower](http://bower.io/).
 
@@ -11,7 +11,7 @@ The source is available for download from [Github](https://github.com/maxigimene
 bower install keepit
 ```
 
-## In the browser
+##In the browser
 
 Usage:
 
@@ -24,7 +24,7 @@ Usage:
 
 ```
 
-## How to use
+##How to use
 
 ```js
 keepit.set(key, value, expiration);
