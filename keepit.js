@@ -25,7 +25,6 @@
             }
 
             localStorage.setItem(key, JSON.stringify(value));
-            return this.get(key);
         },
 
         get: function(key){
@@ -45,6 +44,16 @@
             }
 
             return value;
+        },
+
+        getAll: function(){
+            var exit = [];
+            for(var key in localStorage){
+                if(key.indexOf(keyPrefix) === -1){
+                    exit[key] = keepit.get(key);
+                }
+            }
+            return exit;
         },
 
         delete: function(key){
