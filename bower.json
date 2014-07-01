@@ -1,0 +1,18 @@
+{
+  "name": "keepit",
+  "main": "keepit.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/maxigimenez/keepit",
+  "authors": [
+    "Maxi Gimenez <gimenez.maxi@gmail.com>"
+  ],
+  "description": "Is a minimal API wrapper for localStorage with the big featured of set data with expiration time expressed in hours.",
+  "keywords": [
+    "localStorage",
+    "amd",
+    "requirejs",
+    "wrapper",
+    "expiration"
+  ],
+  "license": "MIT"
+}
