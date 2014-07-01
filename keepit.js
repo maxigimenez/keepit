@@ -11,7 +11,7 @@
 
     root.keepit = keepit;
 
-    var keyPrefix = keyPrefix;
+    var keyPrefix = '_keepit_';
 
     keepit = {
 
